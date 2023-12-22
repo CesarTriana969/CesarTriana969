@@ -21,7 +21,7 @@
 <div style="text-align: left;">
   <h3><img src="./src/cabeza.GIF" width="30px" height="30px"> About me</h3>
 
-  <h4>👽 Web Developer 💻</h4>
+  <h4>👽 Front End Developer 💻</h4>
   <ul>
     <li>🐱‍💻 Lifelong student, always eager to learn.</li>
     <li>🌟 Love for challenges.</li>
