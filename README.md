@@ -113,11 +113,6 @@ Every layer a user's click travels through, from the screen to the database — 
     src="https://streak-stats.demolab.com/?user=CesarTriana969&hide_border=true&background=0D1117&ring=6D5DFC&fire=F38020&currStreakNum=FFFFFF&currStreakLabel=14F1D9&sideNums=FFFFFF&sideLabels=C9D1D9&dates=8B949E&stroke=30363D" />
 </p>
 
-<p align="center">
-  <img width="100%" alt="Contribution activity graph"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=CesarTriana969&bg_color=0D1117&color=C9D1D9&line=14F1D9&point=6D5DFC&area=true&area_color=6D5DFC&hide_border=true&radius=8&custom_title=Contribution%20activity" />
-</p>
-
 <!-- Snake: se genera con la GitHub Action (.github/workflows/snake.yml) -->
 <p align="center">
   <picture>
