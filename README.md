@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/CesarTriana969">
     <img alt="Typing intro"
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=14F1D9&center=true&vCenter=true&width=640&lines=Hi,+I'm+Cesar+Triana;Full+Stack+Developer;From+pixels+to+servers;Frontend+%2F+Backend+%2F+Cloud+%2F+Shopify;Shipping+on+VPS,+Docker+and+Cloudflare" />
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=14F1D9&center=true&vCenter=true&width=640&lines=Hi,+I'm+Cesar+Triana;Frontend+Developer;Full+stack+with+Laravel;Servers,+Cloudflare+and+deployments;Mobile+apps+too" />
   </a>
 </p>
 
