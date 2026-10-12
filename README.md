@@ -29,16 +29,15 @@
 <!-- ========================= ABOUT ========================= -->
 <h2><img src="./src/cabeza.GIF" width="30" height="30" alt="" /> Hey, I'm Cesar <img src="./src/wave.gif" width="28" alt="" /></h2>
 
-I started as a **frontend developer**, and kept going down the stack. Today I build the interface, the API behind it, the server it runs on and the edge that protects it — plus the Shopify stores that turn all of it into sales.
+I specialize in **frontend development**, but most of my work happens in **full stack environments with Laravel**. I also manage servers, apply security best practices with **Cloudflare**, build **mobile apps** and take care of deployments from start to finish.
 
 ```ts
 const cesar = {
   role: "Full Stack Developer",
-  startedAs: "Frontend Developer 🎨",
-  worksOn: ["frontend", "backend", "servers", "cloudflare", "shopify"],
-  currentlyBuilding: "Media Buyer Agent 🐍 (Python, Dokploy, own VPS)",
+  specialty: "Frontend 🎨",
+  worksOn: ["laravel", "servers", "cloudflare", "mobile apps", "deployments", "shopify"],
   mindset: ["lifelong student 🐱‍💻", "loves a good challenge 🌟"],
-  motto: "If it runs on the web, I can build it — and deploy it.",
+  motto: "Anything is possible — it just takes a little more research.",
 };
 ```
 
@@ -56,7 +55,7 @@ Every layer a user's click travels through, from the screen to the database — 
   <tr>
     <td>🖥️ <b>Interface</b></td>
     <td>Fast, responsive UIs that feel good to use</td>
-    <td><img height="38" src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vite&theme=dark" alt="Frontend" /></td>
+    <td><img height="38" src="https://skillicons.dev/icons?i=html,css,js,ts,vue,react,nextjs,tailwind,vite&theme=dark" alt="Frontend" /></td>
   </tr>
   <tr>
     <td>🌐 <b>Edge</b></td>
@@ -75,7 +74,7 @@ Every layer a user's click travels through, from the screen to the database — 
   <tr>
     <td>⚙️ <b>Backend</b></td>
     <td>APIs, automations and integrations between services</td>
-    <td><img height="38" src="https://skillicons.dev/icons?i=python,fastapi,nodejs,express&theme=dark" alt="Backend" /></td>
+    <td><img height="38" src="https://skillicons.dev/icons?i=php,laravel,python,fastapi,nodejs,express&theme=dark" alt="Backend" /></td>
   </tr>
   <tr>
     <td>🗄️ <b>Data</b></td>
@@ -96,12 +95,6 @@ Every layer a user's click travels through, from the screen to the database — 
     <td><img height="38" src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,postman,figma&theme=dark" alt="Tools" /></td>
   </tr>
 </table>
-
-<!-- ========================= BUILDING ========================= -->
-<h2>🚀 Currently building</h2>
-
-> **Media Buyer Agent** — my own system written in Python, containerized and deployed with Dokploy on a self-managed VPS.
-> Built end to end: code, server, deployment and maintenance.
 
 <img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=rect&color=0:14F1D9,100:6D5DFC&height=3" />
 
