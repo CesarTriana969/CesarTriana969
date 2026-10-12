@@ -1,45 +1,33 @@
-<h1 align="center">Hey, welcome to my space <img src="./src/wave.gif" width="30px"></h1>
+name: Generate snake animation
 
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # se regenera cada 12 horas
+  workflow_dispatch:          # botón para ejecutarlo a mano
+  push:
+    branches:
+      - main
 
-<table align="right">
-  <tr>
-    <td>
-      <a href="https://www.instagram.com/cesar_triana73/" rel="nofollow noreferrer" target="_blank">
-        <img align="left" alt="@CesarTriana969 | Instagram" width="22px" src="./src/instagram.png" />
-      </a>
-      <a href="https://www.linkedin.com/in/-cesar-triana/" rel="nofollow noreferrer" target="_blank">
-        <img align="left" alt="@CesarTriana969 | LinkedIn" width="22px" src="./src/linkedin.png" />
-      </a>
-    </td>
-  </tr>
-</table>
+permissions:
+  contents: write
 
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#6D5DFC&color_dots=#EBEDF0,#C6E9F2,#8FD9EA,#4FC3DC,#14A3B8
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#F38020&color_dots=#161B22,#1E2A4A,#3B3F9E,#6D5DFC,#14F1D9
 
-<br />
-<br />
-<br />
-<div style="text-align: left;">
-  <h3><img src="./src/cabeza.GIF" width="30px" height="30px"> About me</h3>
-
-  <h4>👽 Front End Developer 💻</h4>
-  <ul>
-    <li>🐱‍💻 Lifelong student, always eager to learn.</li>
-    <li>🌟 Love for challenges.</li>
-  </ul>
-</div>
-
-
----
-<br />
-
-<h3 align="center"><img src="./src/estadistica2.gif" width="25px" height="25px"> GitHub Stats</h3>
-
-<br />
-
-<div align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=CesarTriana969&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-
-<br />
-
-  <img align="center" src="https://streak-stats.demolab.com/?user=CesarTriana969&theme=dark" alt="Top Lenguajes" />
-</div>
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
